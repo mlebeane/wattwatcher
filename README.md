@@ -1,13 +1,6 @@
- __          __   _   ___          __   _       _               
- \ \        / /  | | | \ \        / /  | |     | |              
-  \ \  /\  / /_ _| |_| |\ \  /\  / /_ _| |_ ___| |__   ___ _ __ 
-   \ \/  \/ / _` | __| __\ \/  \/ / _` | __/ __| '_ \ / _ \ '__|
-    \  /\  / (_| | |_| |_ \  /\  / (_| | || (__| | | |  __/ |   
-     \/  \/ \__,_|\__|\__| \/  \/ \__,_|\__\___|_| |_|\___|_|   
-                                                             
 WattWatcher: Power Estimation Framework for Emerging Workloads
-Current version: 0.01
 ==============================================================
+Current version: 0.01
 
 WattWatcher is a collection of scripts that wrap around the Linux perf
 tool and the McPAT[1] framework to allow the estimation of power and energy

@@ -1,6 +1,7 @@
 WattWatcher: Power Estimation Framework for Emerging Workloads
 ==============================================================
 Current version: 0.01
+----------
 
 WattWatcher is a collection of scripts that wrap around the Linux perf
 tool and the McPAT[1] framework to allow the estimation of power and energy
@@ -66,14 +67,16 @@ Order of magnitude errors or nonsensical results reported by McPAT tend to
 come from one of two primary places:
 
 Major Statistics Errors:
-Total Cycles/Instructions: Please verify that the total number of elapsed cycles
+--------
+- Total Cycles/Instructions: Please verify that the total number of elapsed cycles
 is roughly correct for the sampling interval.
 
 Major Configuration Errors:
-Voltage:  Please verify that the voltage is correct.  
-Device Type: Verify that the device type is correct. A server would be type 0.  
-See McPAT documentation for more information.
-Core Tech Node: Please verify the core tech node (ex: 45nm)
+--------
+- Voltage:  Please verify that the voltage is correct.
+- Device Type: Verify that the device type is correct. A server would be type 0.
+- See McPAT documentation for more information.
+- Core Tech Node: Please verify the core tech node (ex: 45nm)
 
 
 Disclaimer
@@ -106,13 +109,18 @@ Sniper simulator team[2].
 
 References
 ===========
-[1] Sheng Li, Jung Ho Ahn, Richard D. Strong, Jay B. Brockman, Dean M. Tullsen, 
+[1] Michael LeBeane, Jee Ho Ryoo, Reena Panda, and Lizy K. John.
+WattWatcher: Fine-Grained Power Estimation For Emerging Workloads. 2015.
+The IEEE International Symposium on Computer Architecture and High Performance
+Computing (SBAC-PAD '15).
+
+[2] Sheng Li, Jung Ho Ahn, Richard D. Strong, Jay B. Brockman, Dean M. Tullsen, 
 and Norman P. Jouppi. 2009. McPAT: an integrated power, area, 
 and timing modeling framework for multicore and manycore architectures.
 In Proceedings of the 42nd Annual IEEE/ACM International Symposium on 
 Microarchitecture (MICRO 42).
  
-[2] Wim Heirman, Souradip Sarkar, Trevor E. Carlson, Ibrahim Hur, and 
+[3] Wim Heirman, Souradip Sarkar, Trevor E. Carlson, Ibrahim Hur, and 
 Lieven Eeckhout. 2012. Power-aware multi-core simulation for early design 
 stage hardware/software co-optimization. In Proceedings of the 21st 
 international conference on Parallel architectures and compilation 

@@ -81,11 +81,6 @@ Major Configuration Errors:
 
 Disclaimer
 ===========
-For feedback or questions, please email:
-
-mlebeane@utexas.edu
-songshuang1990@gmail.com 
-
 This version of WattWatcher is missing a few features that 
 are planned for inclusion in the full release.
 
